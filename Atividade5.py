@@ -1,9 +1,9 @@
 import time
 
 def saudacao(n):
-    if n < 11 and n > 5:
+    if n > 5 and n < 12:
         return "Bom Dia"
-    elif n >= 12 and n < 17:
+    elif n >= 12 and n < 18:
         return "Boa Tarde"
     else:
         return "Boa Noite"
