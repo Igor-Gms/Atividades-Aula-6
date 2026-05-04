@@ -1,6 +1,6 @@
 def raiz(n):
    if n < 0:
-      return("Número Inválido!!")
+      return "Número Inválido!!"
    else:
         resultado = n ** 0.5
         return(resultado)
